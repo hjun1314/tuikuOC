@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F03AD0491F26FB0400956CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0481F26FB0400956CF3 /* main.m */; };
+		F03AD0551F26FB0400956CF3 /* tuiku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0531F26FB0400956CF3 /* tuiku.xcdatamodeld */; };
+		F03AD0571F26FB0400956CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03AD0561F26FB0400956CF3 /* Assets.xcassets */; };
+		F03AD05A1F26FB0400956CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03AD0581F26FB0400956CF3 /* LaunchScreen.storyboard */; };
+		F03AD0651F26FB0400956CF3 /* tuikuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0641F26FB0400956CF3 /* tuikuTests.m */; };
+		F03AD0701F26FB0400956CF3 /* tuikuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD06F1F26FB0400956CF3 /* tuikuUITests.m */; };
+		F03AD0B61F26FB3F00956CF3 /* HJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0811F26FB3F00956CF3 /* HJBaseViewController.m */; };
+		F03AD0B71F26FB3F00956CF3 /* HJNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0831F26FB3F00956CF3 /* HJNavViewController.m */; };
+		F03AD0B81F26FB3F00956CF3 /* HJTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0851F26FB3F00956CF3 /* HJTabbarController.m */; };
+		F03AD0B91F26FB3F00956CF3 /* HJBaseHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD08B1F26FB3F00956CF3 /* HJBaseHomeController.m */; };
+		F03AD0BA1F26FB3F00956CF3 /* HJHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD08D1F26FB3F00956CF3 /* HJHomeController.m */; };
+		F03AD0BB1F26FB3F00956CF3 /* HJSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD08F1F26FB3F00956CF3 /* HJSearchViewController.m */; };
+		F03AD0BC1F26FB3F00956CF3 /* HJHomdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0921F26FB3F00956CF3 /* HJHomdModel.m */; };
+		F03AD0BD1F26FB3F00956CF3 /* HJHomeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0951F26FB3F00956CF3 /* HJHomeCollectionView.m */; };
+		F03AD0BE1F26FB3F00956CF3 /* HJHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0971F26FB3F00956CF3 /* HJHomeCollectionViewCell.m */; };
+		F03AD0BF1F26FB3F00956CF3 /* HJHomeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0991F26FB3F00956CF3 /* HJHomeScrollView.m */; };
+		F03AD0C01F26FB3F00956CF3 /* HJSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0A11F26FB3F00956CF3 /* HJSiteViewController.m */; };
+		F03AD0C11F26FB3F00956CF3 /* HJTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0A71F26FB3F00956CF3 /* HJTopicViewController.m */; };
+		F03AD0C21F26FB3F00956CF3 /* HJUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0AD1F26FB3F00956CF3 /* HJUserViewController.m */; };
+		F03AD0C31F26FB3F00956CF3 /* HJWeeklyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0B31F26FB3F00956CF3 /* HJWeeklyViewController.m */; };
+		F03AD0C61F26FBBD00956CF3 /* article_detail.html in Resources */ = {isa = PBXBuildFile; fileRef = F03AD0C41F26FBBD00956CF3 /* article_detail.html */; };
+		F03AD0C71F26FBBD00956CF3 /* article_image.png in Resources */ = {isa = PBXBuildFile; fileRef = F03AD0C51F26FBBD00956CF3 /* article_image.png */; };
+		F03AD0CA1F26FBCB00956CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0C91F26FBCB00956CF3 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F03AD0611F26FB0400956CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03AD03C1F26FB0400956CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03AD0431F26FB0400956CF3;
+			remoteInfo = tuiku;
+		};
+		F03AD06C1F26FB0400956CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03AD03C1F26FB0400956CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03AD0431F26FB0400956CF3;
+			remoteInfo = tuiku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F03AD0441F26FB0400956CF3 /* tuiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03AD0481F26FB0400956CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F03AD0541F26FB0400956CF3 /* tuiku.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tuiku.xcdatamodel; sourceTree = "<group>"; };
+		F03AD0561F26FB0400956CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F03AD0591F26FB0400956CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F03AD05B1F26FB0400956CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03AD0601F26FB0400956CF3 /* tuikuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuikuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03AD0641F26FB0400956CF3 /* tuikuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tuikuTests.m; sourceTree = "<group>"; };
+		F03AD0661F26FB0400956CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03AD06B1F26FB0400956CF3 /* tuikuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuikuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03AD06F1F26FB0400956CF3 /* tuikuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tuikuUITests.m; sourceTree = "<group>"; };
+		F03AD0711F26FB0400956CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03AD0801F26FB3F00956CF3 /* HJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBaseViewController.h; sourceTree = "<group>"; };
+		F03AD0811F26FB3F00956CF3 /* HJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBaseViewController.m; sourceTree = "<group>"; };
+		F03AD0821F26FB3F00956CF3 /* HJNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNavViewController.h; sourceTree = "<group>"; };
+		F03AD0831F26FB3F00956CF3 /* HJNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNavViewController.m; sourceTree = "<group>"; };
+		F03AD0841F26FB3F00956CF3 /* HJTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabbarController.h; sourceTree = "<group>"; };
+		F03AD0851F26FB3F00956CF3 /* HJTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabbarController.m; sourceTree = "<group>"; };
+		F03AD08A1F26FB3F00956CF3 /* HJBaseHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBaseHomeController.h; sourceTree = "<group>"; };
+		F03AD08B1F26FB3F00956CF3 /* HJBaseHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBaseHomeController.m; sourceTree = "<group>"; };
+		F03AD08C1F26FB3F00956CF3 /* HJHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomeController.h; sourceTree = "<group>"; };
+		F03AD08D1F26FB3F00956CF3 /* HJHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomeController.m; sourceTree = "<group>"; };
+		F03AD08E1F26FB3F00956CF3 /* HJSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSearchViewController.h; sourceTree = "<group>"; };
+		F03AD08F1F26FB3F00956CF3 /* HJSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSearchViewController.m; sourceTree = "<group>"; };
+		F03AD0911F26FB3F00956CF3 /* HJHomdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomdModel.h; sourceTree = "<group>"; };
+		F03AD0921F26FB3F00956CF3 /* HJHomdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomdModel.m; sourceTree = "<group>"; };
+		F03AD0941F26FB3F00956CF3 /* HJHomeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomeCollectionView.h; sourceTree = "<group>"; };
+		F03AD0951F26FB3F00956CF3 /* HJHomeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomeCollectionView.m; sourceTree = "<group>"; };
+		F03AD0961F26FB3F00956CF3 /* HJHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		F03AD0971F26FB3F00956CF3 /* HJHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		F03AD0981F26FB3F00956CF3 /* HJHomeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJHomeScrollView.h; sourceTree = "<group>"; };
+		F03AD0991F26FB3F00956CF3 /* HJHomeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJHomeScrollView.m; sourceTree = "<group>"; };
+		F03AD0A01F26FB3F00956CF3 /* HJSiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSiteViewController.h; sourceTree = "<group>"; };
+		F03AD0A11F26FB3F00956CF3 /* HJSiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSiteViewController.m; sourceTree = "<group>"; };
+		F03AD0A61F26FB3F00956CF3 /* HJTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTopicViewController.h; sourceTree = "<group>"; };
+		F03AD0A71F26FB3F00956CF3 /* HJTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTopicViewController.m; sourceTree = "<group>"; };
+		F03AD0AC1F26FB3F00956CF3 /* HJUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJUserViewController.h; sourceTree = "<group>"; };
+		F03AD0AD1F26FB3F00956CF3 /* HJUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJUserViewController.m; sourceTree = "<group>"; };
+		F03AD0B21F26FB3F00956CF3 /* HJWeeklyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWeeklyViewController.h; sourceTree = "<group>"; };
+		F03AD0B31F26FB3F00956CF3 /* HJWeeklyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWeeklyViewController.m; sourceTree = "<group>"; };
+		F03AD0C41F26FBBD00956CF3 /* article_detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = article_detail.html; sourceTree = "<group>"; };
+		F03AD0C51F26FBBD00956CF3 /* article_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_image.png; sourceTree = "<group>"; };
+		F03AD0C81F26FBCB00956CF3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		F03AD0C91F26FBCB00956CF3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F03AD0411F26FB0400956CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03AD05D1F26FB0400956CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03AD0681F26FB0400956CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F03AD03B1F26FB0400956CF3 = {
+			isa = PBXGroup;
+			children = (
+				F03AD0461F26FB0400956CF3 /* tuiku */,
+				F03AD0631F26FB0400956CF3 /* tuikuTests */,
+				F03AD06E1F26FB0400956CF3 /* tuikuUITests */,
+				F03AD0451F26FB0400956CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F03AD0451F26FB0400956CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0441F26FB0400956CF3 /* tuiku.app */,
+				F03AD0601F26FB0400956CF3 /* tuikuTests.xctest */,
+				F03AD06B1F26FB0400956CF3 /* tuikuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03AD0461F26FB0400956CF3 /* tuiku */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0C81F26FBCB00956CF3 /* AppDelegate.h */,
+				F03AD0C91F26FBCB00956CF3 /* AppDelegate.m */,
+				F03AD07D1F26FB3F00956CF3 /* Class */,
+				F03AD0561F26FB0400956CF3 /* Assets.xcassets */,
+				F03AD0C41F26FBBD00956CF3 /* article_detail.html */,
+				F03AD0C51F26FBBD00956CF3 /* article_image.png */,
+				F03AD0581F26FB0400956CF3 /* LaunchScreen.storyboard */,
+				F03AD05B1F26FB0400956CF3 /* Info.plist */,
+				F03AD0531F26FB0400956CF3 /* tuiku.xcdatamodeld */,
+				F03AD0471F26FB0400956CF3 /* Supporting Files */,
+			);
+			path = tuiku;
+			sourceTree = "<group>";
+		};
+		F03AD0471F26FB0400956CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0481F26FB0400956CF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F03AD0631F26FB0400956CF3 /* tuikuTests */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0641F26FB0400956CF3 /* tuikuTests.m */,
+				F03AD0661F26FB0400956CF3 /* Info.plist */,
+			);
+			path = tuikuTests;
+			sourceTree = "<group>";
+		};
+		F03AD06E1F26FB0400956CF3 /* tuikuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD06F1F26FB0400956CF3 /* tuikuUITests.m */,
+				F03AD0711F26FB0400956CF3 /* Info.plist */,
+			);
+			path = tuikuUITests;
+			sourceTree = "<group>";
+		};
+		F03AD07D1F26FB3F00956CF3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD07E1F26FB3F00956CF3 /* 3th */,
+				F03AD0881F26FB3F00956CF3 /* Home(文章) */,
+				F03AD09A1F26FB3F00956CF3 /* Main */,
+				F03AD09E1F26FB3F00956CF3 /* Site(站点) */,
+				F03AD0A41F26FB3F00956CF3 /* Topic(主题) */,
+				F03AD0AA1F26FB3F00956CF3 /* User(我的) */,
+				F03AD0B01F26FB3F00956CF3 /* Weekly(周刊) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F03AD07E1F26FB3F00956CF3 /* 3th */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD07F1F26FB3F00956CF3 /* Controller */,
+				F03AD0861F26FB3F00956CF3 /* Model */,
+				F03AD0871F26FB3F00956CF3 /* View */,
+			);
+			path = 3th;
+			sourceTree = "<group>";
+		};
+		F03AD07F1F26FB3F00956CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0801F26FB3F00956CF3 /* HJBaseViewController.h */,
+				F03AD0811F26FB3F00956CF3 /* HJBaseViewController.m */,
+				F03AD0821F26FB3F00956CF3 /* HJNavViewController.h */,
+				F03AD0831F26FB3F00956CF3 /* HJNavViewController.m */,
+				F03AD0841F26FB3F00956CF3 /* HJTabbarController.h */,
+				F03AD0851F26FB3F00956CF3 /* HJTabbarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F03AD0861F26FB3F00956CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F03AD0871F26FB3F00956CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F03AD0881F26FB3F00956CF3 /* Home(文章) */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0891F26FB3F00956CF3 /* Controller */,
+				F03AD0901F26FB3F00956CF3 /* Model */,
+				F03AD0931F26FB3F00956CF3 /* View */,
+			);
+			path = "Home(文章)";
+			sourceTree = "<group>";
+		};
+		F03AD0891F26FB3F00956CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD08A1F26FB3F00956CF3 /* HJBaseHomeController.h */,
+				F03AD08B1F26FB3F00956CF3 /* HJBaseHomeController.m */,
+				F03AD08C1F26FB3F00956CF3 /* HJHomeController.h */,
+				F03AD08D1F26FB3F00956CF3 /* HJHomeController.m */,
+				F03AD08E1F26FB3F00956CF3 /* HJSearchViewController.h */,
+				F03AD08F1F26FB3F00956CF3 /* HJSearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F03AD0901F26FB3F00956CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0911F26FB3F00956CF3 /* HJHomdModel.h */,
+				F03AD0921F26FB3F00956CF3 /* HJHomdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F03AD0931F26FB3F00956CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0941F26FB3F00956CF3 /* HJHomeCollectionView.h */,
+				F03AD0951F26FB3F00956CF3 /* HJHomeCollectionView.m */,
+				F03AD0961F26FB3F00956CF3 /* HJHomeCollectionViewCell.h */,
+				F03AD0971F26FB3F00956CF3 /* HJHomeCollectionViewCell.m */,
+				F03AD0981F26FB3F00956CF3 /* HJHomeScrollView.h */,
+				F03AD0991F26FB3F00956CF3 /* HJHomeScrollView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F03AD09A1F26FB3F00956CF3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD09B1F26FB3F00956CF3 /* Controller */,
+				F03AD09C1F26FB3F00956CF3 /* Model */,
+				F03AD09D1F26FB3F00956CF3 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F03AD09B1F26FB3F00956CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F03AD09C1F26FB3F00956CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F03AD09D1F26FB3F00956CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F03AD09E1F26FB3F00956CF3 /* Site(站点) */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD09F1F26FB3F00956CF3 /* Controller */,
+				F03AD0A21F26FB3F00956CF3 /* Model */,
+				F03AD0A31F26FB3F00956CF3 /* View */,
+			);
+			path = "Site(站点)";
+			sourceTree = "<group>";
+		};
+		F03AD09F1F26FB3F00956CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0A01F26FB3F00956CF3 /* HJSiteViewController.h */,
+				F03AD0A11F26FB3F00956CF3 /* HJSiteViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F03AD0A21F26FB3F00956CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F03AD0A31F26FB3F00956CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F03AD0A41F26FB3F00956CF3 /* Topic(主题) */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0A51F26FB3F00956CF3 /* Controller */,
+				F03AD0A81F26FB3F00956CF3 /* Model */,
+				F03AD0A91F26FB3F00956CF3 /* View */,
+			);
+			path = "Topic(主题)";
+			sourceTree = "<group>";
+		};
+		F03AD0A51F26FB3F00956CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0A61F26FB3F00956CF3 /* HJTopicViewController.h */,
+				F03AD0A71F26FB3F00956CF3 /* HJTopicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F03AD0A81F26FB3F00956CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F03AD0A91F26FB3F00956CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F03AD0AA1F26FB3F00956CF3 /* User(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0AB1F26FB3F00956CF3 /* Controller */,
+				F03AD0AE1F26FB3F00956CF3 /* Model */,
+				F03AD0AF1F26FB3F00956CF3 /* View */,
+			);
+			path = "User(我的)";
+			sourceTree = "<group>";
+		};
+		F03AD0AB1F26FB3F00956CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0AC1F26FB3F00956CF3 /* HJUserViewController.h */,
+				F03AD0AD1F26FB3F00956CF3 /* HJUserViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F03AD0AE1F26FB3F00956CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F03AD0AF1F26FB3F00956CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F03AD0B01F26FB3F00956CF3 /* Weekly(周刊) */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0B11F26FB3F00956CF3 /* Controller */,
+				F03AD0B41F26FB3F00956CF3 /* Model */,
+				F03AD0B51F26FB3F00956CF3 /* View */,
+			);
+			path = "Weekly(周刊)";
+			sourceTree = "<group>";
+		};
+		F03AD0B11F26FB3F00956CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F03AD0B21F26FB3F00956CF3 /* HJWeeklyViewController.h */,
+				F03AD0B31F26FB3F00956CF3 /* HJWeeklyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F03AD0B41F26FB3F00956CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F03AD0B51F26FB3F00956CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F03AD0431F26FB0400956CF3 /* tuiku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03AD0741F26FB0400956CF3 /* Build configuration list for PBXNativeTarget "tuiku" */;
+			buildPhases = (
+				F03AD0401F26FB0400956CF3 /* Sources */,
+				F03AD0411F26FB0400956CF3 /* Frameworks */,
+				F03AD0421F26FB0400956CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tuiku;
+			productName = tuiku;
+			productReference = F03AD0441F26FB0400956CF3 /* tuiku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F03AD05F1F26FB0400956CF3 /* tuikuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03AD0771F26FB0400956CF3 /* Build configuration list for PBXNativeTarget "tuikuTests" */;
+			buildPhases = (
+				F03AD05C1F26FB0400956CF3 /* Sources */,
+				F03AD05D1F26FB0400956CF3 /* Frameworks */,
+				F03AD05E1F26FB0400956CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03AD0621F26FB0400956CF3 /* PBXTargetDependency */,
+			);
+			name = tuikuTests;
+			productName = tuikuTests;
+			productReference = F03AD0601F26FB0400956CF3 /* tuikuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F03AD06A1F26FB0400956CF3 /* tuikuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03AD07A1F26FB0400956CF3 /* Build configuration list for PBXNativeTarget "tuikuUITests" */;
+			buildPhases = (
+				F03AD0671F26FB0400956CF3 /* Sources */,
+				F03AD0681F26FB0400956CF3 /* Frameworks */,
+				F03AD0691F26FB0400956CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03AD06D1F26FB0400956CF3 /* PBXTargetDependency */,
+			);
+			name = tuikuUITests;
+			productName = tuikuUITests;
+			productReference = F03AD06B1F26FB0400956CF3 /* tuikuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F03AD03C1F26FB0400956CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = hjun;
+				TargetAttributes = {
+					F03AD0431F26FB0400956CF3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UBB52YGJ4B;
+						ProvisioningStyle = Automatic;
+					};
+					F03AD05F1F26FB0400956CF3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UBB52YGJ4B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F03AD0431F26FB0400956CF3;
+					};
+					F03AD06A1F26FB0400956CF3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UBB52YGJ4B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F03AD0431F26FB0400956CF3;
+					};
+				};
+			};
+			buildConfigurationList = F03AD03F1F26FB0400956CF3 /* Build configuration list for PBXProject "tuiku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F03AD03B1F26FB0400956CF3;
+			productRefGroup = F03AD0451F26FB0400956CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F03AD0431F26FB0400956CF3 /* tuiku */,
+				F03AD05F1F26FB0400956CF3 /* tuikuTests */,
+				F03AD06A1F26FB0400956CF3 /* tuikuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F03AD0421F26FB0400956CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03AD05A1F26FB0400956CF3 /* LaunchScreen.storyboard in Resources */,
+				F03AD0C61F26FBBD00956CF3 /* article_detail.html in Resources */,
+				F03AD0C71F26FBBD00956CF3 /* article_image.png in Resources */,
+				F03AD0571F26FB0400956CF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03AD05E1F26FB0400956CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03AD0691F26FB0400956CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F03AD0401F26FB0400956CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03AD0BC1F26FB3F00956CF3 /* HJHomdModel.m in Sources */,
+				F03AD0551F26FB0400956CF3 /* tuiku.xcdatamodeld in Sources */,
+				F03AD0C11F26FB3F00956CF3 /* HJTopicViewController.m in Sources */,
+				F03AD0BF1F26FB3F00956CF3 /* HJHomeScrollView.m in Sources */,
+				F03AD0BD1F26FB3F00956CF3 /* HJHomeCollectionView.m in Sources */,
+				F03AD0BB1F26FB3F00956CF3 /* HJSearchViewController.m in Sources */,
+				F03AD0C01F26FB3F00956CF3 /* HJSiteViewController.m in Sources */,
+				F03AD0B71F26FB3F00956CF3 /* HJNavViewController.m in Sources */,
+				F03AD0B91F26FB3F00956CF3 /* HJBaseHomeController.m in Sources */,
+				F03AD0B81F26FB3F00956CF3 /* HJTabbarController.m in Sources */,
+				F03AD0C21F26FB3F00956CF3 /* HJUserViewController.m in Sources */,
+				F03AD0BA1F26FB3F00956CF3 /* HJHomeController.m in Sources */,
+				F03AD0B61F26FB3F00956CF3 /* HJBaseViewController.m in Sources */,
+				F03AD0491F26FB0400956CF3 /* main.m in Sources */,
+				F03AD0CA1F26FBCB00956CF3 /* AppDelegate.m in Sources */,
+				F03AD0BE1F26FB3F00956CF3 /* HJHomeCollectionViewCell.m in Sources */,
+				F03AD0C31F26FB3F00956CF3 /* HJWeeklyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03AD05C1F26FB0400956CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03AD0651F26FB0400956CF3 /* tuikuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03AD0671F26FB0400956CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03AD0701F26FB0400956CF3 /* tuikuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F03AD0621F26FB0400956CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03AD0431F26FB0400956CF3 /* tuiku */;
+			targetProxy = F03AD0611F26FB0400956CF3 /* PBXContainerItemProxy */;
+		};
+		F03AD06D1F26FB0400956CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03AD0431F26FB0400956CF3 /* tuiku */;
+			targetProxy = F03AD06C1F26FB0400956CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F03AD0581F26FB0400956CF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03AD0591F26FB0400956CF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F03AD0721F26FB0400956CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F03AD0731F26FB0400956CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F03AD0751F26FB0400956CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = tuiku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.tuiku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F03AD0761F26FB0400956CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = tuiku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.tuiku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F03AD0781F26FB0400956CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = tuikuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.tuikuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuiku.app/tuiku";
+			};
+			name = Debug;
+		};
+		F03AD0791F26FB0400956CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = tuikuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.tuikuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuiku.app/tuiku";
+			};
+			name = Release;
+		};
+		F03AD07B1F26FB0400956CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = tuikuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.tuikuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tuiku;
+			};
+			name = Debug;
+		};
+		F03AD07C1F26FB0400956CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = tuikuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hjun.tuikuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tuiku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F03AD03F1F26FB0400956CF3 /* Build configuration list for PBXProject "tuiku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03AD0721F26FB0400956CF3 /* Debug */,
+				F03AD0731F26FB0400956CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F03AD0741F26FB0400956CF3 /* Build configuration list for PBXNativeTarget "tuiku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03AD0751F26FB0400956CF3 /* Debug */,
+				F03AD0761F26FB0400956CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F03AD0771F26FB0400956CF3 /* Build configuration list for PBXNativeTarget "tuikuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03AD0781F26FB0400956CF3 /* Debug */,
+				F03AD0791F26FB0400956CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F03AD07A1F26FB0400956CF3 /* Build configuration list for PBXNativeTarget "tuikuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03AD07B1F26FB0400956CF3 /* Debug */,
+				F03AD07C1F26FB0400956CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F03AD0531F26FB0400956CF3 /* tuiku.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F03AD0541F26FB0400956CF3 /* tuiku.xcdatamodel */,
+			);
+			currentVersion = F03AD0541F26FB0400956CF3 /* tuiku.xcdatamodel */;
+			path = tuiku.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F03AD03C1F26FB0400956CF3 /* Project object */;
+}
