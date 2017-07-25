@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+target 'tuiku' do
+pod 'MBProgressHUD'
+pod ‘AFNetworking’
+pod 'Masonry'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod ‘FMDB’
+end
+
