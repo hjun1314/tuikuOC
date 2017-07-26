@@ -31,7 +31,7 @@
 
 - (void)setUI{
     [self.view addSubview:self.homeScrollView];
-   // [self.view addSubview:self.collectionView];
+    [self.view addSubview:self.collectionView];
 }
 
 - (UICollectionViewFlowLayout *)layout{
@@ -88,16 +88,31 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     HJHomeCollectionViewCell *cell = [[HJHomeCollectionViewCell alloc]init];
     if (cell == nil) {
-        cell = [collectionView dequeueReusableCellWithReuseIdentifier:[NSString stringWithFormat:@"%@%d",contentIdentifier,(int)indexPath.row] forIndexPath:indexPath];
+        cell = [collectionView dequeueReusableCellWithReuseIdentifier:[NSString stringWithFormat:@"%@%d",contentIdentifier,(int)indexPath.item] forIndexPath:indexPath];
     }
     HJHomdModel *model = self.titleModelArray[indexPath.row];
     cell.urlstring = model.urlstring;
-    
+    cell.title = model.title;
     return cell;
 }
 #pragma mark - HJHomeScrollViewDelegate
 - (void)titleScrollView:(HJHomeScrollView *)titleScrollView WithTitleLabel:(UILabel *)label{
-    NSLog(@"dsad");
+    NSInteger i = label.tag;
+    UILabel *lastlabel = self.homeScrollView.subviews[self.index];
+    lastlabel.textColor = [UIColor redColor];
+    lastlabel.textColor = [UIColor orangeColor];
+    self.index = i;
+    [self.collectionView setContentOffset:CGPointMake(i * ScreenWidth, 0) animated:NO];
+}
+
+#pragma mark - 上下联动的实现
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    [self scrollViewDidEndDecelerating:scrollView];
+    
+}
+
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+    
 }
 
 - (void)didReceiveMemoryWarning {

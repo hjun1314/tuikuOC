@@ -31,6 +31,14 @@
 		F03AD0C61F26FBBD00956CF3 /* article_detail.html in Resources */ = {isa = PBXBuildFile; fileRef = F03AD0C41F26FBBD00956CF3 /* article_detail.html */; };
 		F03AD0C71F26FBBD00956CF3 /* article_image.png in Resources */ = {isa = PBXBuildFile; fileRef = F03AD0C51F26FBBD00956CF3 /* article_image.png */; };
 		F03AD0CA1F26FBCB00956CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F03AD0C91F26FBCB00956CF3 /* AppDelegate.m */; };
+		F054DB591F28409C00DAD453 /* HJContentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F054DB581F28409C00DAD453 /* HJContentTool.m */; };
+		F0AE65421F27163F007B3A14 /* HJContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE65411F27163F007B3A14 /* HJContentController.m */; };
+		F0AE65451F271CC5007B3A14 /* HJContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE65441F271CC5007B3A14 /* HJContentModel.m */; };
+		F0AE654C1F272C0C007B3A14 /* search.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0AE65491F272C0C007B3A14 /* search.plist */; };
+		F0AE654D1F272C0C007B3A14 /* titleArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0AE654A1F272C0C007B3A14 /* titleArray.plist */; };
+		F0AE65501F272F0C007B3A14 /* HJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE654F1F272F0C007B3A14 /* HJTool.m */; };
+		F0AE65541F2740B0007B3A14 /* HJContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AE65521F2740B0007B3A14 /* HJContentCell.m */; };
+		F0AE65551F2740B0007B3A14 /* HJContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AE65531F2740B0007B3A14 /* HJContentCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +106,19 @@
 		F03AD0C51F26FBBD00956CF3 /* article_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_image.png; sourceTree = "<group>"; };
 		F03AD0C81F26FBCB00956CF3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		F03AD0C91F26FBCB00956CF3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		F054DB571F28409C00DAD453 /* HJContentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJContentTool.h; sourceTree = "<group>"; };
+		F054DB581F28409C00DAD453 /* HJContentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJContentTool.m; sourceTree = "<group>"; };
+		F0AE65401F27163F007B3A14 /* HJContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJContentController.h; sourceTree = "<group>"; };
+		F0AE65411F27163F007B3A14 /* HJContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJContentController.m; sourceTree = "<group>"; };
+		F0AE65431F271CC5007B3A14 /* HJContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJContentModel.h; sourceTree = "<group>"; };
+		F0AE65441F271CC5007B3A14 /* HJContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJContentModel.m; sourceTree = "<group>"; };
+		F0AE65491F272C0C007B3A14 /* search.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = search.plist; sourceTree = "<group>"; };
+		F0AE654A1F272C0C007B3A14 /* titleArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = titleArray.plist; sourceTree = "<group>"; };
+		F0AE654E1F272F0C007B3A14 /* HJTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTool.h; sourceTree = "<group>"; };
+		F0AE654F1F272F0C007B3A14 /* HJTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTool.m; sourceTree = "<group>"; };
+		F0AE65511F2740B0007B3A14 /* HJContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJContentCell.h; sourceTree = "<group>"; };
+		F0AE65521F2740B0007B3A14 /* HJContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJContentCell.m; sourceTree = "<group>"; };
+		F0AE65531F2740B0007B3A14 /* HJContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJContentCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +167,7 @@
 		F03AD03B1F26FB0400956CF3 = {
 			isa = PBXGroup;
 			children = (
+				F0AE65461F272C0C007B3A14 /* Other */,
 				F03AD0461F26FB0400956CF3 /* tuiku */,
 				F03AD0631F26FB0400956CF3 /* tuikuTests */,
 				F03AD06E1F26FB0400956CF3 /* tuikuUITests */,
@@ -265,6 +287,8 @@
 				F03AD0891F26FB3F00956CF3 /* Controller */,
 				F03AD0901F26FB3F00956CF3 /* Model */,
 				F03AD0931F26FB3F00956CF3 /* View */,
+				F0AE65381F27158C007B3A14 /* Content(内容) */,
+				F0AE653C1F27158C007B3A14 /* Detail(详情) */,
 			);
 			path = "Home(文章)";
 			sourceTree = "<group>";
@@ -467,6 +491,113 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F0AE65381F27158C007B3A14 /* Content(内容) */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE65391F27158C007B3A14 /* Controller */,
+				F0AE653A1F27158C007B3A14 /* Model */,
+				F0AE653B1F27158C007B3A14 /* View */,
+			);
+			path = "Content(内容)";
+			sourceTree = "<group>";
+		};
+		F0AE65391F27158C007B3A14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE65401F27163F007B3A14 /* HJContentController.h */,
+				F0AE65411F27163F007B3A14 /* HJContentController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0AE653A1F27158C007B3A14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE65431F271CC5007B3A14 /* HJContentModel.h */,
+				F0AE65441F271CC5007B3A14 /* HJContentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0AE653B1F27158C007B3A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE65511F2740B0007B3A14 /* HJContentCell.h */,
+				F0AE65521F2740B0007B3A14 /* HJContentCell.m */,
+				F0AE65531F2740B0007B3A14 /* HJContentCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0AE653C1F27158C007B3A14 /* Detail(详情) */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE653D1F27158C007B3A14 /* Controller */,
+				F0AE653E1F27158C007B3A14 /* Model */,
+				F0AE653F1F27158C007B3A14 /* View */,
+			);
+			path = "Detail(详情)";
+			sourceTree = "<group>";
+		};
+		F0AE653D1F27158C007B3A14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0AE653E1F27158C007B3A14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0AE653F1F27158C007B3A14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0AE65461F272C0C007B3A14 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE65471F272C0C007B3A14 /* Categray */,
+				F0AE65481F272C0C007B3A14 /* Plist */,
+				F0AE654B1F272C0C007B3A14 /* Public */,
+			);
+			name = Other;
+			path = tuiku/Other;
+			sourceTree = "<group>";
+		};
+		F0AE65471F272C0C007B3A14 /* Categray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categray;
+			sourceTree = "<group>";
+		};
+		F0AE65481F272C0C007B3A14 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE65491F272C0C007B3A14 /* search.plist */,
+				F0AE654A1F272C0C007B3A14 /* titleArray.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		F0AE654B1F272C0C007B3A14 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F0AE654E1F272F0C007B3A14 /* HJTool.h */,
+				F0AE654F1F272F0C007B3A14 /* HJTool.m */,
+				F054DB571F28409C00DAD453 /* HJContentTool.h */,
+				F054DB581F28409C00DAD453 /* HJContentTool.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -532,6 +663,7 @@
 		F03AD03C1F26FB0400956CF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HJ;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = hjun;
 				TargetAttributes = {
@@ -580,7 +712,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F03AD05A1F26FB0400956CF3 /* LaunchScreen.storyboard in Resources */,
+				F0AE654C1F272C0C007B3A14 /* search.plist in Resources */,
 				F03AD0C61F26FBBD00956CF3 /* article_detail.html in Resources */,
+				F0AE654D1F272C0C007B3A14 /* titleArray.plist in Resources */,
+				F0AE65551F2740B0007B3A14 /* HJContentCell.xib in Resources */,
 				F03AD0C71F26FBBD00956CF3 /* article_image.png in Resources */,
 				F03AD0571F26FB0400956CF3 /* Assets.xcassets in Resources */,
 			);
@@ -669,8 +804,13 @@
 				F03AD0BD1F26FB3F00956CF3 /* HJHomeCollectionView.m in Sources */,
 				F03AD0BB1F26FB3F00956CF3 /* HJSearchViewController.m in Sources */,
 				F03AD0C01F26FB3F00956CF3 /* HJSiteViewController.m in Sources */,
+				F054DB591F28409C00DAD453 /* HJContentTool.m in Sources */,
 				F03AD0B71F26FB3F00956CF3 /* HJNavViewController.m in Sources */,
 				F03AD0B91F26FB3F00956CF3 /* HJBaseHomeController.m in Sources */,
+				F0AE65421F27163F007B3A14 /* HJContentController.m in Sources */,
+				F0AE65541F2740B0007B3A14 /* HJContentCell.m in Sources */,
+				F0AE65451F271CC5007B3A14 /* HJContentModel.m in Sources */,
+				F0AE65501F272F0C007B3A14 /* HJTool.m in Sources */,
 				F03AD0B81F26FB3F00956CF3 /* HJTabbarController.m in Sources */,
 				F03AD0C21F26FB3F00956CF3 /* HJUserViewController.m in Sources */,
 				F03AD0BA1F26FB3F00956CF3 /* HJHomeController.m in Sources */,
@@ -910,6 +1050,7 @@
 				F03AD0761F26FB0400956CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F03AD0771F26FB0400956CF3 /* Build configuration list for PBXNativeTarget "tuikuTests" */ = {
 			isa = XCConfigurationList;
@@ -918,6 +1059,7 @@
 				F03AD0791F26FB0400956CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F03AD07A1F26FB0400956CF3 /* Build configuration list for PBXNativeTarget "tuikuUITests" */ = {
 			isa = XCConfigurationList;
@@ -926,6 +1068,7 @@
 				F03AD07C1F26FB0400956CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
